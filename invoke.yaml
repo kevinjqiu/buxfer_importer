@@ -1,0 +1,88 @@
+vault:
+  address: http://vault.svc.qiu.home
+
+buxfer:
+  api_base_url: https://www.buxfer.com/api
+
+account_mappings:
+  tangerine:
+    - ofx_account_id: 31323334353637383930313233343536b07f7f8370bacc9575e1d614cd38d06a5d99f0cb4c4af76cd3ed4807a3d18dfb
+      buxfer_account_id: 1038553
+      note: Tangerine Credit Card
+    - ofx_account_id: 3132333435363738393031323334353621dd20f68fd39fc584681e37b04c9738
+      buxfer_account_id: 1038720
+      note: Tangerine Primary Chequing Account
+    - ofx_account_id: 3132333435363738393031323334353624c1b2671c5c5d7ce1db8c2238607087
+      buxfer_account_id: 1038721
+      note: Tangerine JOINT Chequing Account
+    - ofx_account_id: 313233343536373839303132333435362865239ad3e35192238559aca8c706ba
+      buxfer_account_id: 1038722
+      note: Tangerine Primary Savings Account
+    - ofx_account_id: 313233343536373839303132333435364924901046e59112feecbac5983d2bd5
+      buxfer_account_id: 1038723
+      note: Tangerine USD Savings Account
+    - ofx_account_id: 313233343536373839303132333435364b6c1a860234a8a43eb23d3608b28b09
+      buxfer_account_id: 1038724
+      note: Tangerine RRSP 2015
+    - ofx_account_id: 3132333435363738393031323334353662de791372ce8ecd54a28f9550a8cea6
+      buxfer_account_id: 1038725
+      note: Tangerine RSP Savings Account
+    - ofx_account_id: 313233343536373839303132333435367a9d4d8a22306cd17e593c0487b1d92c
+      buxfer_account_id: 1038726
+      note: Tangerine RSP GIC (2016FEB)
+    - ofx_account_id: 31323334353637383930313233343536ac1f78a4a9adaad8237928d02f60ecb0
+      buxfer_account_id: 1038727
+      note: Tangerine RSP GIC (2014MAR)
+    - ofx_account_id: 31323334353637383930313233343536b0e3bff5726a755a521abf9ed8361990
+      buxfer_account_id: 1038728
+      note: Tangerine TFSA
+    #- ofx_account_id: 31323334353637383930313233343536602a555b22ff27ae17b3744f0915fa67
+    #  buxfer_account_id: 
+    #  note: Tangerine Balanced Portfolio
+  rogersbank:
+    - ofx_account_id: 0000
+      buxfer_account_id: 1038563
+      note: Rogers Bank Mastercard
+
+
+
+#categories:
+#  Essential:
+#    - Mortgage
+#    - Car Insurance
+#    - Car Maintenance
+#    - Gasoline
+#    - Cell Phone/Telephone
+#    - Gas
+#    - Hydro
+#    - Online/Internet Service
+#    - Grocery
+#    - Education
+#    - Health Care
+#    - Home Insurance
+#    - Property Tax
+#  Flexible:
+#    - Donations
+#    - Coffeeshop/Restaurant
+#    - Highway Tolls
+#    - Parking
+#    - Bank Charges
+#    - Pet Care
+#    - Home Improvements
+#    - Public Transit
+#    - Electronics
+#    - Clothing
+#    - Books
+#    - Entertainment
+#    - Gifts
+#    - Hobbies
+#    - Travel/Vacation
+#  Income:
+#    - Salary
+#    - Salary (Spouse)
+#    - Interest
+#    - Other
+#    - Rewards
+#    - Tax Return
+#  Transfer:
+#    - Transfer
